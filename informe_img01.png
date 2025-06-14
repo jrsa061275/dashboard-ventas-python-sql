@@ -1,0 +1,58 @@
+Informe img.png
+
+1. Ingresos Totales
+
+Descripción: Representa la suma total de las ventas en dinero realizadas durante el período actual.
+Fórmula Aplicada: SUM(monto_total).
+Comparación: Se contrasta con el mismo periodo del año anterior.
+Importancia: Este indicador refleja la facturación bruta del negocio y es esencial para evaluar el desempeño económico general.
+
+2. Total Transacciones
+
+Descripción: Mide la cantidad total de transacciones o ventas efectuadas.
+Fórmula Aplicada: COUNT(*) sobre las filas de la tabla ventas.
+Comparación: Respecto al mismo intervalo del año anterior.
+Importancia: Indica el volumen de actividad comercial. Ayuda a entender la frecuencia de ventas sin importar el valor monetario.
+
+3. Top Categoría (Ejemplo: Ropa)
+
+Descripción: Categoría de productos con mayor nivel de ingresos en el año actual.
+Fórmula Aplicada: GROUP BY categoria_id ORDER BY SUM(monto_total) DESC LIMIT 1.
+Comparación: Se compara el ingreso de esa categoría con el año anterior.
+Importancia: Permite identificar las líneas de producto más rentables para enfocar promociones, inversiones y stock.
+
+4. Top Producto (Ejemplo: Sweater lana)
+
+Descripción: Producto que ha generado mayores ingresos individuales en el periodo.
+Fórmula Aplicada: GROUP BY producto_id ORDER BY SUM(monto_total) DESC LIMIT 1.
+Comparación: Ingreso actual versus ingreso en el mismo periodo del año pasado.
+Importancia: Detecta el producto estrella. Es clave para estrategias de marketing y abastecimiento.
+
+5. VPT (Valor Promedio por Transacción)
+
+Descripción: Valor promedio gastado por los clientes en cada transacción.
+Fórmula Aplicada: ingresos_totales / total_transacciones
+Importancia: Ayuda a evaluar si los clientes están comprando productos más caros o combinaciones mayores. Es fundamental para medir efectividad de ventas cruzadas o estrategias de upselling.
+
+6. UVT (Unidades Vendidas Totales)
+
+Descripción: Cantidad total de ítems vendidos.
+Fórmula Aplicada: SUM(cantidad).
+Importancia: Complementa el análisis de ingresos mostrando si el negocio está vendiendo más volumen aunque con precios promedio menores.
+
+7. Nuevos Clientes
+
+Descripción: Clientes que realizaron su primera compra durante el año actual.
+Fórmula Aplicada: Clientes cuyas ventas actuales no tienen registros anteriores a fecha_inicio.
+Importancia: Refleja la capacidad del negocio para atraer nuevos compradores. Vital para evaluar el crecimiento de la base de clientes.
+
+8. PIT (Promedio de Ítems por Transacción)
+
+Descripción: Promedio de unidades compradas por transacción.
+Fórmula Aplicada: AVG(cantidad).
+Importancia: Un PIT alto indica que los clientes están comprando varios productos por venta, lo que puede ser resultado de buenas estrategias de ventas combinadas o promociones.
+
+Resumen:
+Cada uno de estos indicadores proporciona una perspectiva específica sobre el comportamiento de ventas, clientes y productos. Analizados en conjunto, ofrecen una imagen integral del rendimiento del negocio y permiten detectar áreas de mejora y oportunidades de crecimiento.
+
+Este dashboard es una herramienta fundamental para la toma de decisiones estratégicas en la empresa.
