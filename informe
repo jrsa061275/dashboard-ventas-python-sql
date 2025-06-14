@@ -56,3 +56,191 @@ Resumen:
 Cada uno de estos indicadores proporciona una perspectiva específica sobre el comportamiento de ventas, clientes y productos. Analizados en conjunto, ofrecen una imagen integral del rendimiento del negocio y permiten detectar áreas de mejora y oportunidades de crecimiento.
 
 Este dashboard es una herramienta fundamental para la toma de decisiones estratégicas en la empresa.
+
+
+
+img02.png 
+
+1. Gráfico de Líneas: Ingresos Mensuales
+
+Descripción:
+El primer gráfico muestra la evolución de los ingresos mes a mes para los años 2024 (línea azul) y 2025 (línea naranja).
+
+Análisis:
+
+Los ingresos en 2025 comienzan similares o incluso superiores a los de 2024 en enero y febrero.
+
+En marzo 2025 se produce una caída notable en comparación con el mismo mes del año anterior.
+
+En abril y mayo, los ingresos vuelven a repuntar pero no alcanzan a superar los del año anterior.
+
+En junio 2025 se evidencia una caída abrupta, ya que el mes aún no está cerrado y tiene datos parciales.
+
+Importancia del indicador:
+Este gráfico permite observar tendencias, identificar estacionalidades y detectar problemas de facturación en ciertos meses clave. Es esencial para ajustar estrategias comerciales y presupuestos.
+
+Conclusión:
+A pesar de un buen inicio, el año 2025 presenta una baja sostenida a partir de marzo, lo que podría requerir intervenciones en marketing, precios o logística. Junio aún está en curso y no debe ser considerado como conclusivo.
+
+2. Gráfico Combinado: Transacciones Mensuales
+
+Descripción:
+El segundo gráfico combina barras (2025, color azul) con una línea (2024, color naranja) para mostrar la comparación de transacciones mensuales.
+
+Análisis:
+
+Enero y febrero presentan cifras muy similares entre ambos años.
+
+A partir de marzo, las transacciones en 2025 se mantienen estables pero en niveles menores a los de 2024.
+
+Junio 2025 muestra un desplome en la cantidad de transacciones, por tratarse de un mes incompleto al momento del análisis.
+
+Importancia del indicador:
+Las transacciones reflejan el movimiento real del negocio, sin importar el valor de cada venta. Ayudan a identificar cuándo los clientes están comprando menos, aunque los ingresos puedan mantenerse (por tickets más altos).
+
+Conclusión:
+El año 2025 muestra una leve tendencia a la baja en el número de transacciones respecto a 2024. Esto podría indicar una menor frecuencia de compra, potencialmente asociada a menos tráfico, menor conversión o fidelidad del cliente.
+
+
+
+Recomendaciones Generales:
+
+Profundizar el análisis de marzo a junio para entender causas internas o externas.
+
+Evaluar campañas de reactivación en los meses donde el rendimiento es inferior.
+
+No interpretar junio como definitivo ya que es un mes en curso.
+
+Monitorear la relación entre ingresos y transacciones, buscando mantener un ticket promedio competitivo.
+
+Estos dos gráficos ofrecen una visión clara del desempeño mensual de la empresa y permiten tomar decisiones basadas en datos históricos y tendencias recientes.
+
+
+
+
+img03.png
+
+
+1. Top 5 Vendedores 2025 vs 2024
+
+Descripción:
+Se presentan los cinco vendedores con mayor monto de ventas en 2025 y se compara con su desempeño en 2024. La última columna muestra la variación porcentual positiva o negativa.
+
+Análisis por vendedor:
+
+Olalla del Arellano
+
+Monto 2025: $13.169
+
+Monto 2024: $1.368
+
+Variación: +862.66%
+
+Interpretación: Incremento extraordinario. Posiblemente se integró recientemente al equipo comercial o tuvo una campaña muy exitosa.
+
+Anita Roberta Hidalgo Luz
+
+Monto 2025: $8.240
+
+Monto 2024: $2.841
+
+Variación: +190.00%
+
+Interpretación: Fuerte crecimiento de ventas, consolidando un mejor desempeño comercial.
+
+Ester Sabater Maestre
+
+Monto 2025: $6.188
+
+Monto 2024: $8.227
+
+Variación: -24.78%
+
+Interpretación: Disminución significativa, aunque se mantiene en el top.
+
+Anastasio Benavent Mosquera
+
+Monto 2025: $3.131
+
+Monto 2024: $4.959
+
+Variación: -36.88%
+
+Interpretación: Caída pronunciada. Puede deberse a menor cartera de clientes o bajo desempeño.
+
+Alex Valero Montserrat
+
+Monto 2025: $2.357
+
+Monto 2024: $4.310
+
+Variación: -45.31%
+
+Interpretación: Reducción considerable. Se recomienda investigar causas o brindar apoyo comercial.
+
+Conclusión:
+Dos vendedores destacan por crecimiento explosivo, mientras que tres presentan descensos que deben ser monitoreados para evitar mayores caídas en el futuro.
+
+2. Top 5 Productos 2025
+
+Descripción:
+Lista los cinco productos con mayor monto de ventas en el año 2025, junto con su categoría y la cantidad total vendida.
+
+Análisis por producto:
+
+Sweater lana (Ropa)
+
+Monto: $5.840
+
+Cantidad: 4 unidades
+
+Interpretación: Producto estrella del año. Alta demanda dentro de su categoría.
+
+Webcam HD (Oficina)
+
+Monto: $5.669
+
+Cantidad: 2 unidades
+
+Interpretación: Producto de alto valor unitario, posiblemente impulsado por teletrabajo o equipamiento de oficinas.
+
+Crema hidratante (Belleza)
+
+Monto: $5.534
+
+Cantidad: 3 unidades
+
+Interpretación: Producto con rotación intermedia, buen posicionamiento en su segmento.
+
+Zapatillas Nike (Ropa)
+
+Monto: $5.491
+
+Cantidad: 2 unidades
+
+Interpretación: Marca reconocida con alta conversión. El rubro "Ropa" se posiciona con 2 de los 5 productos top.
+
+Espejo decorativo (Hogar)
+
+Monto: $5.221
+
+Cantidad: 2 unidades
+
+Interpretación: Buen rendimiento dentro del segmento de hogar. Producto posiblemente de tendencia o estacional.
+
+Conclusión:
+Los productos más vendidos tienen buena distribución entre categorías clave: ropa, oficina, belleza y hogar. Se evidencia un buen equilibrio entre volumen y valor unitario, lo que sugiere una cartera de productos saludable.
+
+
+
+Recomendaciones Finales:
+
+Estimular a vendedores en descenso con capacitaciones o incentivos.
+
+Fortalecer la oferta de los productos top con más stock o promociones.
+
+Detectar patrones de compra para replicar éxitos en otras categorías.
+
+Usar estos datos para planear estrategias comerciales trimestrales y medir impacto de campañas.
+
+
